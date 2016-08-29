@@ -1,0 +1,31 @@
+{
+    "name": "squareboat/alert",
+    "description": "An easy way for Laravel flash notifications using sweetalert JS plugin.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["laravel", "sweetalert"],
+    "authors": [
+        {
+            "name": "Amit Gupta",
+            "email": "akaamitgupta@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0",
+        "illuminate/session": "~5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "mockery/mockery": "0.9.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Squareboat\\Alert\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
