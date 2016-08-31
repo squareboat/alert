@@ -1,4 +1,5 @@
-# Laravel flash notifications using a beautiful javascript alert [(sweet-alert)](http://t4t5.github.io/sweetalert/).
+# Laravel Alert Notifications
+Laravel alert notifications using a beautiful javascript alert [(sweet-alert)](http://t4t5.github.io/sweetalert/).
 
 ## Install
 
