@@ -37,7 +37,7 @@ Squareboat\Alert\AlertServiceProvider::class,
 
 ### Download & install Sweet Alert library
 
-#### Download the `.js` and `.css` from the website
+#### Download the `.js` and `.css` from the [website](http://t4t5.github.io/sweetalert/)
 or
 
 #### Install through bower
