@@ -148,11 +148,11 @@ alert()->error('This is an error message.', 'Optional Title');
     </script>
 <?php } ?>
 ```
-The `sweet_alert.alert` session key contains a JSON configuration object to pass it directly to Sweet Alert swal() funtion.
+The `sweet_alert.alert` session key contains a JSON configuration object to pass it directly to Sweet Alert `swal()` funtion.
 
-Default view considers that you have initialized the sweetalert plugin by referencing the necessary files and uses its swal() function.
+Default view considers that you have initialized the sweetalert plugin by referencing the necessary files and uses its `swal()` function.
 
-If swal() function is not defined then default view declares a javascript variable `sweet_alert` which you can use anywhere you like.
+If `swal()` function is not defined then default view declares a javascript variable `sweet_alert` which you can use anywhere you like.
 
 ### Final Considerations
 
@@ -165,6 +165,6 @@ Remember!, the number is set in `milliseconds`
 
 Also, if you need the alert to be persistent on the page until the user dismiss it by pressing the alert confirmation button:
 ```
-alert('Hello World!')->important("optional text");
+alert('Force may with you')->important("optional text");
 ```
 The optional text will appear in the button otherwise default text `OK` is shown.
