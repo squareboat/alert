@@ -9,7 +9,7 @@ Laravel alert notifications using a beautiful javascript alert [(sweet-alert)](h
 $ composer require squareboat/alert dev-master
 ```
 
-OR
+or
 
 Add dependency to your `composer.json` file and run composer update.
 
@@ -34,17 +34,23 @@ Squareboat\Alert\AlertServiceProvider::class,
 'Alert' => Squareboat\Alert\Facades\Alert::class,
 ```
 
-Finally, you need to get the Sweet Alert library, you can so by:
 
-Download the .js and .css from the website
+### Download & install Sweet Alert library
 
-Or through bower:
+#### Download the `.js` and `.css` from the website
+or
 
+#### Install through bower
 ```
 bower install sweetalert
 ```
+or
+#### Install through NPM:
+```
+npm install sweetalert
+```
 
-### Include default alert view to your layout
+### Finally, include default alert view to your layout
 
 Package default provides bootstrap ready alert view. Just include `alert::message` file to your main layout in blade:
 
