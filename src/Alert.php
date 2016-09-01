@@ -190,6 +190,16 @@ class Alert
     }
 
     /**
+     * Return the current alert configuration.
+     *
+     * @return array
+     */
+    public function getConfig()
+    {
+        return $this->config;
+    }
+
+    /**
      * Flash the configuration.
      *
      * return void
