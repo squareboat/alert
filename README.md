@@ -171,3 +171,7 @@ Also, if you need the alert to be persistent on the page until the user dismiss 
 alert('Force may with you')->important("optional text");
 ```
 The optional text will appear in the button otherwise default text `OK` is shown.
+
+# License
+
+The MIT License. Copyright © SquareBoat 2016
