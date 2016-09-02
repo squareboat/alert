@@ -53,7 +53,7 @@ class Alert
      * @param string $type
      * @param string $title
      *
-     * @return \App\Utilities\Flash\SweetAlertNotifier $this
+     * @return $this
      */
     public function message($text, $title = '', $type = null)
     {
@@ -71,7 +71,7 @@ class Alert
      * @param string $text
      * @param string $title
      *
-     * @return \App\Utilities\Flash\SweetAlertNotifier $this
+     * @return $this
      */
     public function basic($text, $title)
     {
@@ -86,7 +86,7 @@ class Alert
      * @param string $text
      * @param string $title
      *
-     * @return \App\Utilities\Flash\SweetAlertNotifier $this
+     * @return $this
      */
     public function info($text, $title = '')
     {
@@ -101,7 +101,7 @@ class Alert
      * @param string $text
      * @param string $title
      *
-     * @return \App\Utilities\Flash\SweetAlertNotifier $this
+     * @return $this
      */
     public function success($text, $title = '')
     {
@@ -116,7 +116,7 @@ class Alert
      * @param string $text
      * @param string $title
      *
-     * @return \App\Utilities\Flash\SweetAlertNotifier $this
+     * @return $this
      */
     public function warning($text, $title = '')
     {
@@ -131,7 +131,7 @@ class Alert
      * @param string $text
      * @param string $title
      *
-     * @return \App\Utilities\Flash\SweetAlertNotifier $this
+     * @return $this
      */
     public function error($text, $title = '')
     {
@@ -145,7 +145,7 @@ class Alert
      *
      * @param int $milliseconds
      *
-     * @return \App\Utilities\Flash\SweetAlertNotifier $this
+     * @return $this
      */
     public function autoclose($milliseconds = 1800)
     {
@@ -160,7 +160,7 @@ class Alert
      *
      * @param string $buttonText
      *
-     * @return \App\Utilities\Flash\SweetAlertNotifier $this
+     * @return $this
      */
     public function confirmButton($buttonText = 'OK')
     {
@@ -176,7 +176,7 @@ class Alert
      *
      * @param string $buttonText
      *
-     * @return \App\Utilities\Flash\SweetAlertNotifier $this
+     * @return $this
      */
     public function important($buttonText = 'OK')
     {
@@ -184,6 +184,22 @@ class Alert
       $this->config['showConfirmButton'] = true;
       $this->config['allowOutsideClick'] = false;
       $this->config['timer'] = 'null';
+      $this->flashConfig();
+
+      return $this;
+    }
+
+    /**
+     * Make Message HTML view.
+     *
+     * @param bool|true $html
+     *
+     * @return $this
+     */
+    public function html()
+    {
+      $this->config['html'] = true;
+
       $this->flashConfig();
 
       return $this;
@@ -246,21 +262,5 @@ class Alert
     private function hasTitle()
     {
       return (bool) strlen($this->config['title']);
-    }
-
-    /**
-     * Make Message HTML view.
-     *
-     * @param bool|true $html
-     *
-     * @return \App\Utilities\Flash\SweetAlertNotifier $this
-     */
-    public function html()
-    {
-      $this->config['html'] = true;
-
-      $this->flashConfig();
-
-      return $this;
     }
 }
