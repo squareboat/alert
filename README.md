@@ -1,5 +1,7 @@
 # Laravel Alert Notifications
 
+[![Build Status](https://travis-ci.org/squareboat/alert.svg?branch=master)](https://travis-ci.org/squareboat/alert)
+
 Laravel alert notifications using a beautiful javascript alert [(sweet-alert)](http://t4t5.github.io/sweetalert/).
 
 ## Install
@@ -171,4 +173,4 @@ The optional text will appear in the button otherwise default text `OK` is shown
 
 # License
 
-The MIT License. Copyright © SquareBoat 2016
+The MIT License. Please see [License File](LICENSE.md) for more information. Copyright © SquareBoat 2016
