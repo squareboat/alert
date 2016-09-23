@@ -1,7 +1,5 @@
 # Laravel Alert Notifications
 
-[![Build Status](https://travis-ci.org/akaamitgupta/alert.svg?branch=master)](https://travis-ci.org/akaamitgupta/alert)
-
 Laravel alert notifications using a beautiful javascript alert [(sweet-alert)](http://t4t5.github.io/sweetalert/).
 
 ## Install
@@ -36,7 +34,6 @@ Squareboat\Alert\AlertServiceProvider::class,
 ```
 'Alert' => Squareboat\Alert\Facades\Alert::class,
 ```
-
 
 ### Download & install Sweet Alert library
 
