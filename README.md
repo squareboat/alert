@@ -28,13 +28,13 @@ Once installation operation is complete, simply add both the service provider an
 
 #### Service Provider
 ```
-Squareboat\Alert\AlertServiceProvider::class,
+SquareBoat\Alert\AlertServiceProvider::class,
 ```
 
 #### Facade
 
 ```
-'Alert' => Squareboat\Alert\Facades\Alert::class,
+'Alert' => SquareBoat\Alert\Facades\Alert::class,
 ```
 
 ### Download & install Sweet Alert library
@@ -173,4 +173,4 @@ The optional text will appear in the button otherwise default text `OK` is shown
 
 # License
 
-The MIT License. Please see [License File](LICENSE.md) for more information. Copyright © SquareBoat 2016
+The MIT License. Please see [License File](LICENSE.md) for more information. Copyright © 2016 [SquareBoat](https://squareboat.com)

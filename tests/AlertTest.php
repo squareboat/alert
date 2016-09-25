@@ -1,6 +1,6 @@
 <?php
 
-use Squareboat\Alert\Alert;
+use SquareBoat\Alert\Alert;
 
 class AlertTest extends PHPUnit_Framework_TestCase
 {
@@ -14,7 +14,7 @@ class AlertTest extends PHPUnit_Framework_TestCase
     /**
      * The package's alert implementation.
      *
-     * @var \Squareboat\Alert\Alert
+     * @var \SquareBoat\Alert\Alert
      */
     protected $alert;
 

@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Squareboat\\Alert\\": "src/"
+            "SquareBoat\\Alert\\": "src/"
         },
         "files": [
             "src/helpers.php"

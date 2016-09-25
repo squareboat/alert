@@ -5,7 +5,7 @@ if ( ! function_exists('alert')) {
      * Arrange for a alert message.
      *
      * @param  string|null $message
-     * @return \Squareboat\Alert\Alert
+     * @return \SquareBoat\Alert\Alert
      */
     function alert($message = null)
     {

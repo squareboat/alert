@@ -1,6 +1,6 @@
 <?php
 
-namespace Squareboat\Alert\Facades;
+namespace SquareBoat\Alert\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

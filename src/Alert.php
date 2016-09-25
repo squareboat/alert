@@ -1,6 +1,6 @@
 <?php
 
-namespace Squareboat\Alert;
+namespace SquareBoat\Alert;
 
 use Illuminate\Session\Store;
 
