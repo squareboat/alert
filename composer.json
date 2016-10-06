@@ -3,7 +3,7 @@
     "description": "An easy way for Laravel flash notifications using sweetalert JS plugin.",
     "type": "library",
     "license": "MIT",
-    "keywords": ["laravel", "sweetalert"],
+    "keywords": ["laravel", "flash", "alert", "sweetalert"],
     "authors": [
         {
             "name": "Amit Gupta",
@@ -27,5 +27,5 @@
             "src/helpers.php"
         ]
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }

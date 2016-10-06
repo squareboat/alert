@@ -9,17 +9,7 @@ Laravel alert notifications using a beautiful javascript alert [(sweet-alert)](h
 ### Install via composer
 
 ```
-$ composer require squareboat/alert dev-master
-```
-
-or
-
-Add dependency to your `composer.json` file and run composer update.
-
-```
-require: {
-    "squareboat/alert": "dev-master"
-}
+$ composer require squareboat/alert
 ```
 
 ### Configure Laravel
